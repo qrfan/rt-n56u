@@ -652,6 +652,12 @@ struct nvram_pair router_defaults[] = {
 	{ "ss_schedule", "00000000000" },
 
 	{ "ss_enable", "0" },
+	{ "trojan_local_enable", "0" },
+        { "trojan_local", "" },
+        { "trojan_link", "https://cdn.jsdelivr.net/gh/chongshengB/rt-n56u/trunk/user/trojan/trojan" },
+        { "v2_local_enable", "0" },
+        { "v2_local", "" },
+        { "v2_link", "https://cdn.jsdelivr.net/gh/chongshengB/rt-n56u/trunk/user/v2ray/v2ray" },
 	{ "ss_mode", "1" },
 	{ "ss_server", "127.0.0.1" },
 	{ "ss_server_port", "8989" },
